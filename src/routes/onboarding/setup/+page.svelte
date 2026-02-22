@@ -56,7 +56,7 @@
             <span class="font-semibold text-gray-800">Setup Awal</span>
             <span
                 class="text-sm font-medium text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full"
-            >1 / 3</span
+                >1 / 3</span
             >
         </div>
 
@@ -99,7 +99,7 @@
                                 />
                             {:else}
                                 <label class="font-medium text-gray-700 text-sm"
-                                >{wallet.name}</label
+                                    >{wallet.name}</label
                                 >
                             {/if}
 
@@ -117,7 +117,8 @@
                         <div class="relative flex items-center">
                             <span
                                 class="absolute left-4 font-medium text-gray-500 pointer-events-none"
-                            >Rp</span>
+                                >Rp</span
+                            >
                             <input
                                 type="text"
                                 inputmode="numeric"

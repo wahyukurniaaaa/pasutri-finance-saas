@@ -136,7 +136,8 @@
                     <a
                         href="/onboarding/setup"
                         class="text-xs text-blue-500 mt-4 underline"
-                    >Dev: Skip wait</a>
+                        >Dev: Skip wait</a
+                    >
                 </div>
             </div>
         {:else}

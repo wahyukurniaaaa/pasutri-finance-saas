@@ -149,7 +149,8 @@
             >
                 <span
                     class="bg-emerald-100 text-emerald-600 p-1.5 rounded-lg text-xs"
-                >💰</span> Income
+                    >💰</span
+                > Income
             </div>
             <p class="text-2xl font-bold text-gray-900">
                 +{formatShortCurrency(stats.income.amount)}
@@ -177,7 +178,8 @@
                 class="flex items-center gap-2 text-gray-500 font-medium text-sm"
             >
                 <span class="bg-rose-100 text-rose-600 p-1.5 rounded-lg text-xs"
-                >💸</span> Expense
+                    >💸</span
+                > Expense
             </div>
             <p class="text-2xl font-bold text-gray-900">
                 -{formatShortCurrency(stats.expense.amount)}
@@ -201,7 +203,8 @@
             <a
                 href="/app/transactions"
                 class="text-sm font-medium text-emerald-600 hover:text-emerald-700 hover:underline"
-            >Semua &gt;</a>
+                >Semua &gt;</a
+            >
         </div>
 
         <div class="flex flex-col gap-3">
@@ -217,12 +220,14 @@
                         </div>
                         <div class="flex flex-col">
                             <span class="font-semibold text-gray-900"
-                            >{trx.title}</span>
+                                >{trx.title}</span
+                            >
                             <span
                                 class="text-xs text-gray-500 flex items-center gap-1 mt-0.5"
                             >
                                 <span class="font-medium text-gray-700"
-                                >{trx.who}</span>
+                                    >{trx.who}</span
+                                >
                                 • {trx.time}
                             </span>
                         </div>

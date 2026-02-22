@@ -57,13 +57,15 @@
                     <a
                         href="#"
                         class="text-sm font-medium text-emerald-600 hover:text-emerald-500"
-                    >Lupa password?</a>
+                        >Lupa password?</a
+                    >
                 </div>
             </div>
 
             <div class="mt-4">
                 <Button fullWidth type="submit" disabled={!email || !password}
-                >MASUK</Button>
+                    >MASUK</Button
+                >
             </div>
         </form>
 
@@ -82,7 +84,8 @@
             <a
                 href="/auth/register"
                 class="font-medium text-emerald-600 hover:text-emerald-500"
-            >Daftar</a>
+                >Daftar</a
+            >
         </p>
     </div>
 </div>

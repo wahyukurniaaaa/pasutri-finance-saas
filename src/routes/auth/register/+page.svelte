@@ -87,7 +87,8 @@
                             : 'text-gray-500'}"
                     >
                         <span class="font-bold"
-                        >{passwordLength ? "✓" : "○"}</span> Min 8 karakter
+                            >{passwordLength ? "✓" : "○"}</span
+                        > Min 8 karakter
                     </div>
                     <div
                         class="flex items-center gap-2 {passwordAlphanumeric
@@ -95,7 +96,8 @@
                             : 'text-gray-500'}"
                     >
                         <span class="font-bold"
-                        >{passwordAlphanumeric ? "✓" : "○"}</span> Huruf & angka
+                            >{passwordAlphanumeric ? "✓" : "○"}</span
+                        > Huruf & angka
                     </div>
                 </div>
             </div>
@@ -121,13 +123,15 @@
                     Saya setuju dengan <a
                         href="#"
                         class="text-emerald-600 font-medium hover:underline"
-                    >Syarat & Ketentuan</a>
+                        >Syarat & Ketentuan</a
+                    >
                 </span>
             </label>
 
             <div class="mt-4">
                 <Button fullWidth type="submit" disabled={!isValid}
-                >DAFTAR</Button>
+                    >DAFTAR</Button
+                >
             </div>
         </form>
 
@@ -146,7 +150,8 @@
             <a
                 href="/auth/login"
                 class="font-medium text-emerald-600 hover:text-emerald-500"
-            >Masuk</a>
+                >Masuk</a
+            >
         </p>
     </div>
 </div>

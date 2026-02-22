@@ -107,7 +107,8 @@
             <p class="text-gray-600 text-sm">Pasangan sudah daftar duluan?</p>
             <a href="/onboarding/pairing?mode=input" class="w-full">
                 <Button variant="outline" fullWidth
-                >MASUKKAN KODE PASANGAN</Button>
+                    >MASUKKAN KODE PASANGAN</Button
+                >
             </a>
         </div>
 
@@ -118,7 +119,8 @@
                 class={!selectedRole ? "pointer-events-none" : ""}
             >
                 <Button fullWidth disabled={!selectedRole} size="lg"
-                >LANJUTKAN</Button>
+                    >LANJUTKAN</Button
+                >
             </a>
         </div>
     </div>
