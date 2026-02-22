@@ -19,4 +19,7 @@ ENV NODE_ENV=production
 ENV PORT=3000
 EXPOSE 3000
 
+# Run as non-root user for security
+USER node
+
 CMD ["node", "build"]
